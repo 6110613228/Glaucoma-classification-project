@@ -60,6 +60,8 @@ Create Machine learning model and Deep learning model That can predict the disea
     - [Link to document (PDF)]("")
 3. เอกสารการอธิบายโค้ดในส่วนของการเรียนรู้เชิงลึก
     - [Link to document (PDF)](https://drive.google.com/file/d/1PrZN-UNapLWJ-1pl5Wo0JpqwxEhonzqg/view?usp=sharing)
+4. เอกสารอธิบาย API
+    - [Link to document (PDF)](https://drive.google.com/file/d/1OwGQwIqdMitHtAF0qZmLU_trKICLERN8/view?usp=sharing)
 ---
 # Contributor
 1. 6110613046 นาย ภัควัฒน์ อิสระวิศาลพล
