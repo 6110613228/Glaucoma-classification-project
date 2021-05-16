@@ -23,7 +23,7 @@ Create Machine learning model and Deep learning model That can predict the disea
 ### Task : collecting fundus image
 รวบรวมรูป fundus image เพื่อนำมาใช้เป็นชุดข้อมูล ในการเทรนโมเดล จากการเรียนรู้ของเครื่องและการเรียนรู้เชิงลึก ( Machine Learning and Deep learning )
 1.  สไลด์นำเสนอ Collecting fundus image (PDF)
-    - [Link to Requirement Report (PDF)]("https://drive.google.com/file/d/1vmKok0uvzgWTI7-e4IMdXou8P6s8Hfr6/view?usp=sharing")      
+    - [Link to Requirement Report (PDF)](https://drive.google.com/file/d/1vmKok0uvzgWTI7-e4IMdXou8P6s8Hfr6/view?usp=sharing)      
 
 
 ---
@@ -34,7 +34,7 @@ Create Machine learning model and Deep learning model That can predict the disea
 รวบรวมงานวิจัยต่าง ๆ ในการทำโมเดลที่สามารถทำนายผลโรคต้อหินได้ ด้วยการเรียนรู้ของเครื่องและการเรียนรู้เชิงลึก ( Machine Learning and Deep learning )
 
 1. สไลด์นำเสนอ Literature Reviews
-    - [Link to Requirement Report (PDF)]("https://drive.google.com/file/d/1P1mDgiPpJa8hhmAZWoixbI66rrdIGrlY/view?usp=sharing")      
+    - [Link to Requirement Report (PDF)](https://drive.google.com/file/d/1P1mDgiPpJa8hhmAZWoixbI66rrdIGrlY/view?usp=sharing)      
 
 
 ---
@@ -45,7 +45,7 @@ Create Machine learning model and Deep learning model That can predict the disea
 สร้างโมเดลที่สามารถทำนายได้ว่าเป็นโรคต้อหิน โรคอื่น ๆ หรือไม่เป็นโรคได้ ด้วยการเรียนรู้ของเครื่อง ( Machine learning )
 
 1. สไลด์นำเสนอ Glaucoma classification with Machine learning
-    - [Link to Requirement Report (PDF)]("https://drive.google.com/file/d/1FtjyaclyEWNZk4gqsm0WueUcAC-f0nDV/view?usp=sharing")      
+    - [Link to Requirement Report (PDF)](https://drive.google.com/file/d/1FtjyaclyEWNZk4gqsm0WueUcAC-f0nDV/view?usp=sharing)      
 
 ---
 
