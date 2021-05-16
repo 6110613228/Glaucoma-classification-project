@@ -1,6 +1,3 @@
-# To add a new cell, type '# %%'
-# To add a new markdown cell, type '# %% [markdown]'
-# %%
 import pandas as pd
 from sklearn.model_selection import cross_val_score
 import numpy as np
@@ -13,44 +10,20 @@ from sklearn.model_selection import StratifiedKFold
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import plot_roc_curve
 import joblib
-#read in the data using pandas
-
-
-
-
-
-# %%
-df = pd.read_csv('trainingset.csv')
-
-
-# %%
-df = df.replace({'target':1},0)
-df
-
-
-# %%
-kfold = 5
-skf = StratifiedKFold(n_splits=kfold)
-target = df.loc[:,'target']
-
-
-# %%
 from sklearn.model_selection import GridSearchCV
-
-
-# %%
 from sklearn.metrics import confusion_matrix
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import GridSearchCV
 
+#read in the data using pandas
+df = pd.read_csv('trainingset.csv')
+df = df.replace({'target':1},0)
+
+kfold = 5
+skf = StratifiedKFold(n_splits=kfold)
+target = df.loc[:,'target']
 model = KNeighborsClassifier(n_neighbors= 56)
-#param_grid = {'n_neighbors': np.arange(1, 100)}
-#knn_gscv = GridSearchCV(model, param_grid, cv=5)
-#knn_gscv.fit(X, y)
-#knn_gscv.best_params_
 
-
-# %%
 def train_model(train, test, fold_no):
    X = ['CDR','DCD']
    y = ['target']
@@ -67,8 +40,6 @@ def train_model(train, test, fold_no):
          accuracy_score(y_test,predictions))
    return X_test,y_test
 
-
-# %%
 fold_no = 1
 trainset= []
 testset = []
@@ -107,8 +78,6 @@ plt.title('Receiver Operating Characteristic(ROC):Other and Non-Other')
 plt.legend(loc="lower right")
 plt.show()   # Display
 
-
-# %%
 model = joblib.load('model/OtherkNN_fold_no1.sav')
 conf_matrix = confusion_matrix(y_test,model.predict(X_test))
 model.predict
