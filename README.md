@@ -59,7 +59,7 @@ Create Machine learning model and Deep learning model That can predict the disea
 2. เอกสารการอธิบายโค้ดในส่วนของการเรียนรู้ของเครื่อง
     - [Link to document (PDF)]("")
 3. เอกสารการอธิบายโค้ดในส่วนของการเรียนรู้เชิงลึก
-    - [Link to document (PDF)]("")
+    - [Link to document (PDF)](https://drive.google.com/file/d/1PrZN-UNapLWJ-1pl5Wo0JpqwxEhonzqg/view?usp=sharing)
 ---
 # Contributor
 1. 6110613046 นาย ภัควัฒน์ อิสระวิศาลพล
