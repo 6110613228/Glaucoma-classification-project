@@ -61,7 +61,7 @@ def get_cd_r(image):
     #
     # T1
     #
-    T1 = 1.5 * preprocess_r.std()
+    T1 = preprocess_r.std()
     row, col = r.shape
     disc = np.zeros(r.shape[:2])
     for i in range(row):
@@ -148,7 +148,7 @@ def get_cd_r(image):
 def get_exudate(img):
 
     fundus = cv.resize(img, (800, 615))
-    fundus_mask = cv.imread('script/mask.bmp')
+    fundus_mask = cv.imread('scripts/mask.bmp')
     fundus_mask = cv.resize(fundus_mask, (800, 615))
 
     f1 = cv.bitwise_and(fundus[:, :, 0], fundus_mask[:, :, 0])
