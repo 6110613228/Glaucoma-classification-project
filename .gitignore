@@ -1,5 +1,9 @@
 .venv
 
 __pycache__
+__pycache__/*
+*/__pycache__
+*/__pycache__/*
 
-API/DL/models/
+*.h5
+*.sav

@@ -30,4 +30,4 @@ def dl_predict(image):
 
 class load_model():
     # Load DL_model here once
-    model_dl = tf.keras.models.load_model('model/VGG16_35ep.h5')
+    model_dl = tf.keras.models.load_model('models/VGG16_35ep.h5')
