@@ -51,7 +51,7 @@ Create Machine learning model and Deep learning model That can predict the disea
 
 # Iteration4 
 
-### Task : : Glaucoma classification with Machine learning and Deep learning
+### Task : Glaucoma classification with Machine learning and Deep learning
 สร้างโมเดลที่สามารถทำนายได้ว่าเป็นโรคต้อหิน โรคอื่น ๆ หรือไม่เป็นโรคได้ ด้วยการเรียนรู้ของเครื่องและการเรียนรู้เชิงลึก ( Machine learning and Deep learning)
 
 1. สไลด์นำเสนอ Glaucoma classification with Machine learning and Deep learning
