@@ -1,7 +1,7 @@
 from fastapi import FastAPI, UploadFile, Form, File
 import numpy as np
 import cv2 as cv
-from scripts.model import model
+import scripts.model as model
 
 app = FastAPI()
 
