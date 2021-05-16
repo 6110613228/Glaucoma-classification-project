@@ -2,7 +2,7 @@ import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers, models
 import matplotlib.pyplot as plt
-
+from keras.layers import Dense
 
 # Model creation
 model = models.Sequential()
@@ -18,12 +18,15 @@ for layer in vgg16_model.layers[:-1]:
 for layer in model.layers:
     layer.trainable = False
 
+# add layer Dense = 3
+model.add(Dense(3, activation='softmax'))
 # Compile model, Using optimizers adam with learning rate = 1e-4, loss= 'categorical_crossentropy', and metric=['accuracy']
 model.compile(
     tf.keras.optimizers.Adam(lr=0.0001), 
     loss='categorical_crossentropy', 
     metrics=['acc']
 )
+
 
 # You may want to see sumarization of your model
 model.summary()
