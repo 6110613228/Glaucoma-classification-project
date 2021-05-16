@@ -57,9 +57,9 @@ Create Machine learning model and Deep learning model That can predict the disea
 1. สไลด์นำเสนอ Glaucoma classification with Machine learning and Deep learning
     - [Link to document (PDF)](https://drive.google.com/file/d/1W-4Y3W2v8pbqKBcxgvWCQGAikegbr4GX/view?usp=sharing)
 2. เอกสารการอธิบายโค้ดในส่วนของการเรียนรู้ของเครื่อง
-    - [Link to document (PDF)]("")
+    - [Link to document (PDF)](https://drive.google.com/file/d/1LlGy6TJ3neNITIwEV2pZgJwmMIOH3XtY/view?usp=sharing)
 3. เอกสารการอธิบายโค้ดในส่วนของการเรียนรู้เชิงลึก
-    - [Link to document (PDF)](https://drive.google.com/file/d/1PrZN-UNapLWJ-1pl5Wo0JpqwxEhonzqg/view?usp=sharing)
+    - [Link to document (PDF)](https://drive.google.com/file/d/172vQJT-tj9ch8gu7VX_GZje9E_ff21AL/view?usp=sharing)
 4. เอกสารอธิบาย API
     - [Link to document (PDF)](https://drive.google.com/file/d/1OwGQwIqdMitHtAF0qZmLU_trKICLERN8/view?usp=sharing)
 ---
