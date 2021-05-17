@@ -7,7 +7,7 @@ app = FastAPI()
 
 @app.get('/')
 def root():
-    return {'msg' : 'Hello World'}
+    return {'msg' : 'Hello World, I am DL API'}
 
 @app.post('/api/fundus')
 async def upload_image(nonce: str=Form(None, title="Query Text"), image: UploadFile = File(...)):
