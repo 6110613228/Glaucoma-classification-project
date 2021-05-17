@@ -1,7 +1,6 @@
 import joblib
 import cv2 as cv
 import numpy as np
-import tensorflow as tf
 from .extract import features
 
 def ml_predict(image):
@@ -12,7 +11,6 @@ def ml_predict(image):
     
     class_label = ['glaucoma', 'normal', 'other']
 
-    print(result)
     model = load_model.model_ml
 
     result = np.array(result)
