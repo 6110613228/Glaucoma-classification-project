@@ -7,6 +7,8 @@ def dl_predict(image):
     # load model
     model = load_model.model_dl
 
+    class_label = ['glaucoma', 'normal', 'other']
+
     # preprocess image (resize and expand dimention)
     image = cv.resize(image, (224, 224))
     image = np.expand_dims(image, axis=0)
@@ -18,12 +20,7 @@ def dl_predict(image):
     predict_class = np.argmax(prediction[0])
     class_conf = prediction[0][predict_class]
 
-    if predict_class == 0:
-        class_out = 'glaucoma'
-    elif predict_class == 1:
-        class_out = 'normal'
-    else:
-        class_out = 'other'
+    class_out = class_label[predict_class]
 
     return [class_out, class_conf]
 

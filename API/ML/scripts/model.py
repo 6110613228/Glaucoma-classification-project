@@ -5,7 +5,14 @@ import tensorflow as tf
 from .extract import features
 
 def ml_predict(image):
-    result = features(image) # [cdr, dcd, ex]
+    try:
+        result = features(image) # [cdr, dcd, ex]
+    except(Exception, cv.error) as e :
+        result = [0, 0, 0]
+    
+    class_label = ['glaucoma', 'normal', 'other']
+
+    print(result)
     model = load_model.model_ml
 
     result = np.array(result)
@@ -16,12 +23,7 @@ def ml_predict(image):
     predict_class = np.argmax(prediction)
     class_conf = prediction[0][predict_class]
 
-    if predict_class == 0:
-        class_out = 'glaucoma'
-    elif predict_class == 1:
-        class_out = 'normal'
-    else:
-        class_out = 'other'
+    class_out = class_label[predict_class]
 
     return [class_out, class_conf]
     
